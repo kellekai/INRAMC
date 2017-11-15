@@ -184,7 +184,7 @@ int main(int argc, char *argv[]) {
     }
     MPI_Win_free(&win);
     MPI_Barrier(ncomm);
-    printf("\n");
+    if (nrank == 0 ) { printf("\n"); }
     MPI_Finalize();
     return 0;
 }
