@@ -28,6 +28,6 @@ GB total        : 1999.999988
 ========================================
 
 1510779845.183272 : [IN MEM CKPT] [APP#1] ckpt in mem of 1999.999988 GB took: 1.386995 seconds
-1510779957.503907 : [FLUSH SSD] [HEAD#0] flushing 1999.999988 GB to PFS took: 113.697267 seconds
+1510779957.503907 : [FLUSH SSD] [HEAD#0] flushing 1999.999988 GB to SSDs took: 113.697267 seconds
 
 ```
